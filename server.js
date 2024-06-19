@@ -1,6 +1,7 @@
 const express=require("express")
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+const serverless = require('serverless-http');
 const connectDB=require("./config/dbconfig")
 
 dotenv.config();
